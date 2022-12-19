@@ -44,6 +44,9 @@ createApp({
             if(this.itemActive < 0){
                 this.itemActive = 4;
             }
+        },
+        thumbnailSelect(index){
+            this.itemActive = index
         }
     },
 }).mount('#app')
